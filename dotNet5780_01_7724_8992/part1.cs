@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace dotNet5780_01_7724_8992
 {
-    class Program
+    class part1
     {
         static void Main(string[] args)
         {
