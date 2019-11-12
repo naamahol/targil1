@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2874EC8-A04A-46CD-8A2D-0BA5182A9157}</ProjectGuid>
+    <ProjectGuid>{9869F619-BFAF-43C1-A857-98917349C584}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>dotNet5780_01_7724_8992</RootNamespace>
-    <AssemblyName>dotNet5780_01_7724_8992</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>part1</RootNamespace>
+    <AssemblyName>part1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
