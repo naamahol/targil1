@@ -1,5 +1,5 @@
-﻿//Naama Holzer 322277724
-//Kayla Nayman 341438992
+﻿//Kayla Nayman 341438992 and Naama Holzer 322277724
+//This program lets a hotel manager book new stays and print data about the occupancy.
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        public static void addDay(ref int day, ref int month)
+        public static void addDay(ref int day, ref int month) //This fuction moves to the following day.
         {
             if (day != 31)
                 day++;
@@ -21,7 +21,7 @@ namespace ConsoleApp1
             }
         }
 
-        public static void addReservation(ref bool[,] matrix)
+        public static void addReservation(ref bool[,] matrix) //This function books a new stay if the wanted dates are available.
         {
             Console.WriteLine("Enter date and length of stay");
             string date = System.Console.ReadLine();
@@ -68,7 +68,7 @@ namespace ConsoleApp1
             }
         }
 
-        public static void displayOccupancy(bool[,] matrix)
+        public static void displayOccupancy(bool[,] matrix) //This function displays the dates occupied.
         {
             int checkDay = 1, checkMonth = 1;
             int counter = 1;
@@ -99,7 +99,7 @@ namespace ConsoleApp1
                 }
         }
 
-        public static void displaySumandPerc(bool[,] matrix)
+        public static void displaySumandPerc(bool[,] matrix) //This function displays the number of days occupied and the yearly occupancy percentage.
         {
             int sum = 0;
 
@@ -115,7 +115,7 @@ namespace ConsoleApp1
         }
 
 
-        static void Main(string[] args)
+        static void Main(string[] args) // The main function.
         {
             bool[,] matrix = new bool[13, 32];
             for (int i = 1; i < 13; i++)
